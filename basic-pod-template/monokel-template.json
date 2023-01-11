@@ -1,0 +1,26 @@
+{
+
+    "name": "Basic Kubernetes Pod",
+    "id": "com.github.priyansh10.plugin.templates.basic-pod-template",
+    "author": "Priyansh Sharma",
+    "version": "1.0.0",
+    "description": "Creats a Pod for a specific Image",
+    "repository": "",
+    "type": "vanilla",
+    "forms": [
+        {
+            "name": "pod settings",
+            "description": "Specify the settings for your pod",
+            "schema": "form-schema.json",
+            "uischema": "form-ui-schema.json"
+        }
+    ],
+    "manifests": [
+        {
+            "filePath": "template.yaml"
+        }
+    ],
+    "resultMessage": "Pod resource created susccessfully!",
+    "helpUrl": "https://github.com/priyansh10/monokel-templates-plugin.git"
+
+}
