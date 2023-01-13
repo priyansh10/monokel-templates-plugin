@@ -1,17 +1,15 @@
 {
-    "name": "Templates plugin",
-    "description": "Custom template plugin",
-    "version": "1.0.0",
-    "authors": "author",
-    "repository": "https://github.com/priyansh10/monokel-templates-plugin.git",
-    "monoklePlugin": {
-      "id": "com.github.priyansh10.plugin.templates",
-      "helpUrl": "https://github.com/priyansh10/monokel-templates-plugin.git",
-      "modules": [
-        {
-          "type": "template",
-          "path": "basic-pod-template"
-        }
-      ]
-    }
-  }
+	"name": "Templates plugin",
+	"description": "Custom templates plugin",
+	"version": "1.0.0",
+	"author": "Priyansh sharma",
+	"repository": "https://github.com/priyansh10/monokle-templates-plugin",
+	"monoklePlugin": {
+		"id": "com.github.priyansh10.plugin.templates",
+		"helpUrl": "https://github.com/priyansh10/monokle-templates-plugin",
+		"modules": [{
+			"type": "template",
+			"path": "basic-pod-template"
+		}]
+	}
+}
