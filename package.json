@@ -5,7 +5,7 @@
     "authors": "author",
     "repository": "https://github.com/priyansh10/monokel-templates-plugin.git",
     "monoklePlugin": {
-      "id": "com.github.priyansh10.plugin.templates.basic-pod-template",
+      "id": "com.github.priyansh10.plugin.templates",
       "helpUrl": "https://github.com/priyansh10/monokel-templates-plugin.git",
       "modules": [
         {
